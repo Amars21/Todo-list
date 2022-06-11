@@ -1,0 +1,65 @@
+*
+{margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+
+
+.App{
+align-items: center;
+width: 100%;
+margin: 0 auto;
+text-align: center;
+
+}
+
+.list{
+    
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 5px;
+   
+}
+.list ul{
+    list-style-type: none;
+    padding: 5px;
+}
+
+.todo{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 10px;
+    justify-content: center;
+}
+.todo button{
+  background-color: #EA4C89;
+  border-radius: 4px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 7px 10px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  align-items: center;
+  text-align: center;
+}
+
+.todo li{
+    padding: 5px;
+}
+
+
+
+
